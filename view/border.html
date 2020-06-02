@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> Welcome to Border</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6" id="borderOption">
+                <div class="row">
+                    <div class="col-md-12 optionheader">
+                        <h5> Border Option</h5>
+                    </div>
+                    <div class="col-md-12">
+                        <label> Border Width</label>
+                        <input type="range" min="5" max="100" value="10" id="range">
+                     </div>
+                     <div class="col-md-12">
+                        <label> Border Style</label>
+                        <select id="borderStyle">
+                            <option value="solid">Solid</option>
+                            <option value="dotted">Dotted</option>
+                            <option value="dashed">Dashed</option>
+                            <option value="double">Double</option>
+                            <option value="groove">Groove</option>
+                            <option value="ridge">Ridge</option>
+                        </select>
+                     </div>
+                     <div class="col-md-12">
+                        <label> Border Color </label>
+                        <input type="color" id="color">
+                    </div>
+                    <div class="col-md-12">
+                        
+                    </div>
+                    <div class="col-md-12">
+                        
+                    </div>
+                    <div class="col-md-12">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="codeOption">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="divContainer">
+
+                        </div>
+                    </div>
+                    <div class="col-md-12" id="codeContainer">
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </main>
+    <script src="js/border.js"></script>
+</body>
+</html>
